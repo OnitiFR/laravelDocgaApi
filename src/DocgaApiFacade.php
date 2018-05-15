@@ -5,6 +5,6 @@ class DocgaApiFacade extends \Illuminate\Support\Facades\Facade
 {
   protected static function getFacadeAccessor()
   {
-    return 'CellarS3';
+    return 'DocgaApi';
   }
 }
